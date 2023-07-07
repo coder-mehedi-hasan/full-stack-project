@@ -1,0 +1,152 @@
+/* navbar css  */
+nav{
+  background-color: #e8f4ff;
+}
+/* registration page css  */
+#register{
+  background-color: #deecf8;
+  padding: 100px 0;
+}
+#register .main{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+#register .main .register_form .form_group{
+  border-bottom: 1px ridge #6b6b6b;
+}
+#register .main .register_form input{
+  border: none;
+  outline: none;
+}
+#register .main .register_form label{
+  padding: 0px 5px;
+}
+#register .main .register_form .form-button input{
+  background-color: rgb(84, 129, 212);
+  color: #fff;
+  padding: 3px 10px;
+}
+/* login css  */
+#login{
+  background-color: #deecf8;
+  padding: 100px 0;
+}
+#login .main{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+#login .main .login_form .form_group{
+  border-bottom: 1px ridge #6b6b6b;
+}
+#login .main .login_form input{
+  border: none;
+  outline: none;
+}
+#login .main .login_form label{
+  padding: 0px 5px;
+}
+#login .main .login_form .form-button input{
+  background-color: rgb(84, 129, 212);
+  color: #fff;
+  padding: 3px 10px;
+}
+/* contact page css */
+#contact{
+  background-color: #deecf8;
+  padding: 50px 0;
+}
+#contact .contact-item{
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#contact .contact-item .contact-item-info h3{
+  font-size: 18px;
+}
+#contact .contact-item .contact-item-info p{
+  font-size: 14px;
+}
+#contact .contact_form{
+  padding: 20px 0 0 0;
+}
+#contact .contact_form .contact-form-info{
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  padding: 30px 50px ;
+  background-color: #fff;
+}
+#contact .contact_form .contact-form-info input{
+  outline: none;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  border: 1px solid #bababa;
+}
+#contact .contact_form .contact-form-info textarea{
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bababa;
+}
+/* Home Page css  */
+#home{
+  padding: 100px 0;
+  height: 90vh;
+  background-image: linear-gradient(to right, #deecf8 50%,#f3f3f3 50%);
+}
+#home p{
+  letter-spacing: 2px;
+}
+
+/* about page css  */
+#about-page{
+  background-color: #deecf8;
+  height: 90vh;
+  padding: 50px;
+}
+#about-page .about-page-content{
+  background: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* Error page css  */
+#error-page{
+  height: 90vh;
+  background-color: #deecf8;
+}
+#error-page .error-content{
+  position: relative;
+  z-index: 1;
+}
+#error-page .error-content h1{
+  text-align: center;
+  font-size: 250px;
+  font-weight: 700;
+  opacity: 0.05;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* visibility: collapse; */
+  /* user-select: none; */
+  z-index: -99999;
+}
+#error-page .error-content h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#error-page .error-content a{
+  border: 1px solid #f3f3f3;
+  transition: .4s;
+  background: #0d6efd;
+  color: #fff;
+}
+#error-page .error-content a:hover{
+  border: 1px solid #0d6efd;
+  color: #0d6efd;
+  background: #f3f3f3;
+}
+input{
+  width: 90%;
+}
