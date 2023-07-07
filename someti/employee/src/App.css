@@ -1,0 +1,22 @@
+/*
+
+#f4b41a
+#143d59
+
+*/
+/* navbar*/
+
+
+/*home page*/
+#home {
+    height: 90vh;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.btn-outline-light:active {
+    background-color: #143d59 !important;
+    outline: none !important;
+}
